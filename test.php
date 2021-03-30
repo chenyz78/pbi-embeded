@@ -1,7 +1,7 @@
 <?php
 error_reporting(0);
-include "powerbi.php";
-include_once('class.DotEnv.php');
+include_once('lib/powerbi.php');
+include_once('lib/class.DotEnv.php');
 
 $uname = getenv("AZURE_UNAME");
 $passwd = getenv("AZURE_PASS");
